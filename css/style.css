@@ -1,11 +1,14 @@
+.body{
+    overflow: hidden;
+}
 .container{
-    height: 100vh;
+    max-height: 100%;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: darkgray;
+    /*background-color: darkgray;*/
 }
 .container h1{
     margin-top: 85px;
@@ -166,4 +169,97 @@ color: rgb(255, 255, 255);
 }
 .orange:active{
     background-color: rgb(224, 224, 224); 
+}
+@media (max-width: 500px){
+    .calculator{
+        height: 550px;
+        width: 300px;
+    }
+    .btn-container{
+        height: 400px;
+    }
+    .number-input{
+        height: 150px;
+    }
+    .container h1{
+        font-size: 28px;
+        margin-top: 30px;
+    }
+    .delim, 
+    .seven, 
+    .eight, 
+    .nine, 
+    .umnozh, 
+    .four, 
+    .five, 
+    .six, 
+    .minus, 
+    .one, 
+    .two, 
+    .three, 
+    .plus, 
+    .comma, 
+    .ansver,
+    .ac, 
+    .plus-minus, 
+    .persent{
+        width: 60px;
+        height: 60px;
+    }
+    .zero{
+        width: 128px;
+        height: 60px;
+    }
+}
+@media (max-height: 550px){
+    .calculator{
+        height: 500px;
+    }
+    .number-input{
+        height: 125px;
+    }
+    .btn-container{
+        height: 375px;
+    }
+}
+@media (max-width: 300px){
+    .calculator{
+        height: 550px;
+        width: 270px;
+    }
+    .btn-container{
+        height: 400px;
+    }
+    .number-input{
+        height: 150px;
+    }
+    .container h1{
+        font-size: 28px;
+        margin-top: 30px;
+    }
+    .delim, 
+    .seven, 
+    .eight, 
+    .nine, 
+    .umnozh, 
+    .four, 
+    .five, 
+    .six, 
+    .minus, 
+    .one, 
+    .two, 
+    .three, 
+    .plus, 
+    .comma, 
+    .ansver,
+    .ac, 
+    .plus-minus, 
+    .persent{
+        width: 55px;
+        height: 55px;
+    }
+    .zero{
+        width: 115px;
+        height: 55px;
+    }
 }
