@@ -1,0 +1,169 @@
+.container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: darkgray;
+}
+.container h1{
+    margin-top: 85px;
+    margin-bottom: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 48px;
+    color: beige;
+}
+.calculator{
+    height: 700px;
+    width: 450px;
+    background-color:rgb(20, 20, 20);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.number-input{
+    height: 250px;
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 56px;
+    color: rgb(255, 255, 255);
+    background-color:rgb(20, 20, 20);
+    box-sizing: border-box;
+    border: 0;
+    padding: 20px 20px 20px 20px;
+    direction: rtl;
+    unicode-bidi: bidi-override;
+}
+.number-input::placeholder{
+    color: rgb(255, 255, 255);
+}
+.btn-container{
+    width: 100%;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+}
+.group-one, .group-two, .group-tree, .group-four, .group-five{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.delim, 
+.seven, 
+.eight, 
+.nine, 
+.umnozh, 
+.four, 
+.five, 
+.six, 
+.minus, 
+.one, 
+.two, 
+.three, 
+.plus, 
+.comma, 
+.ansver{
+width: 80px;
+height: 80px;
+text-align: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+border-radius: 100%;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 36px;
+color: rgb(255, 255, 255);
+cursor: pointer;
+}
+.ac, 
+.plus-minus, 
+.persent{
+width: 80px;
+height: 80px;
+text-align: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+border-radius: 100%;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 36px;
+color:rgb(20, 20, 20);
+background-color: rgb(161, 161, 161);
+cursor: pointer;
+}
+.zero{
+width: 185px;
+height: 80px;
+text-align: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+border-radius: 50px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 36px;
+color: rgb(255, 255, 255);
+
+}
+.grey{
+    background-color: rgb(88, 88, 88);
+}
+.orange{
+    background-color: rgb(255, 153, 19);
+}
+.delim:hover, 
+.seven:hover, 
+.eight:hover, 
+.nine:hover, 
+.umnozh:hover, 
+.four:hover, 
+.five:hover, 
+.six:hover, 
+.minus:hover, 
+.one:hover, 
+.two:hover, 
+.three:hover, 
+.plus:hover, 
+.comma:hover, 
+.ansver:hover,
+.ac:hover, 
+.plus-minus:hover, 
+.persent:hover,
+.zero:hover{
+    opacity: 90%;
+}
+.ac:active,
+.plus-minus:active,
+.persent:active{
+    background-color: rgb(224, 224, 224);
+}
+
+.seven:active, 
+.eight:active, 
+.nine:active, 
+.four:active, 
+.five:active, 
+.six:active, 
+.one:active, 
+.two:active, 
+.three:active, 
+.comma:active, 
+.zero:active{
+    background-color: rgb(175, 175, 175);
+}
+.delim:active,
+.umnozh:active,
+.minus:active,
+.plus:active,
+.ansver:active{
+    color: rgb(255, 153, 19);
+}
+.orange:active{
+    background-color: rgb(224, 224, 224); 
+}
