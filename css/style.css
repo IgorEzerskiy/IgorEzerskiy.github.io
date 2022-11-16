@@ -37,8 +37,10 @@
     box-sizing: border-box;
     border: 0;
     padding: 20px 20px 20px 20px;
-    direction: rtl;
-    unicode-bidi: bidi-override;
+    text-align: right;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
 }
 .number-input::placeholder{
     color: rgb(255, 255, 255);
