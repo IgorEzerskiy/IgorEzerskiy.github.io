@@ -52,7 +52,6 @@ document.querySelector('.btn-container').onclick = (event) => {
             else{
                 out.textContent = a;
             }
-            /*console.log(a, b, sign);*/
         }
         else if (a !== '' && b !== '' && finish){
             b = key;
@@ -70,13 +69,11 @@ document.querySelector('.btn-container').onclick = (event) => {
             else{
                 out.textContent = b;
             }
-            /*console.log(a, b, sign);*/
         }
         return;
     }
     if (action.includes(key)){
         sign = key;
-        /*console.log(a, b, sign);*/
         out.textContent = sign;
         return;
     }
@@ -115,7 +112,6 @@ document.querySelector('.btn-container').onclick = (event) => {
         finish = true;
         a_string = a.toString();
         len = a_string.length;
-        /*console.log(len);*/
         if (len <= 5){
             out.textContent = a;
         }
@@ -123,6 +119,5 @@ document.querySelector('.btn-container').onclick = (event) => {
             text.style.fontSize = 24 + 'px'
             out.textContent = a;
         }
-        /*console.log(a, b, sign);*/
     }
 }
